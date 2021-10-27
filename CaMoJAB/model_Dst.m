@@ -27,7 +27,7 @@ if ~exist('ablation_mask', 'var') || isempty(ablation_mask)
 end
 
 if isempty(sccsf)  
-    sccsf = SCCSF_Co    neContrastMat();    
+    sccsf = SCCSF_ConeContrastMat();    
 end
 
 % Calculate Frequency Spectrum

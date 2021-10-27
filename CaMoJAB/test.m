@@ -12,11 +12,11 @@ disp_params.srx = 1;
 disp_params.sry = 1;
 %--------------------------------
 
-[Q_1x1,~,~] = camojab(ref_img, disp_params);
+[Q_1x1,~,~] = camojab(texture, disp_params);
 disp_params.srx = 0.5;
-[Q_2x1,~,~] = camojab(ref_img, disp_params);
+[Q_2x1,~,~] = camojab(texture, disp_params);
 disp_params.srx = 0.25;
-[Q_4x1,~,~] = camojab(ref_img, disp_params);
+[Q_4x1,~,~] = camojab(texture, disp_params);
 
 fprintf("Quality loss for 2x1 shading rate = %f JND\n",Q_2x1 - Q_1x1)
 fprintf("Quality loss for 4x1 shading rate = %f JND\n",Q_4x1 - Q_1x1)
