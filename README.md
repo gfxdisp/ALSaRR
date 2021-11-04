@@ -20,7 +20,7 @@ ALSaRR/ <br />
  <br />
 Experiment_data/
  <br />
-<table><thead><tr><th>File</th><th>Description</th></tr></thead><tbody><tr><td>vrs_exp_data.csv</td><td>Pairwise comparision data from Experiment 1</td></tr><tr><td>scale_pwc2jnd.m</td><td>Script to scale data to JND units</td></tr><tr><td>vrs_exp_data_jnd.mat</td><td>PWC data scaled to JND</td></tr><tr><td>vrs_exp_stimulus.mat</td><td>Textures used in the experiment</td></tr><tr><td>external_data/marrr_exp1_jnds.mat</td><td>Data from [Denes et al. 2020] Experiment 1</td></tr><tr><td>external_data/marrr_exp3_jnds.mat</td><td>Data from [Denes et al. 2020] Experiment 3</td></tr></tbody></table>
+<table><thead><tr><th>File</th><th>Description</th></tr></thead><tbody><tr><td>vrs_exp_data.csv</td><td>Pairwise comparision data from Experiment 1</td></tr><tr><td>scale_pwc2jnd.m</td><td>Script to scale data to JND units</td></tr><tr><td>vrs_exp_data_jnd.mat</td><td>PWC data scaled to JND</td></tr><tr><td>vrs_exp_stimulus.mat</td><td>Textures used in the experiment</td></tr><tr><td>alsarr_validation_experiment.csv</td><td>Validation experiment results</td></tr><tr><td>external_data/marrr_exp1_jnds.mat</td><td>Data from [Denes et al. 2020] Experiment 1</td></tr><tr><td>external_data/marrr_exp3_jnds.mat</td><td>Data from [Denes et al. 2020] Experiment 3</td></tr></tbody></table>
  
  <br />
 Utils/: collection of  helper functions  <br />
