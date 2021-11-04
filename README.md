@@ -8,38 +8,20 @@ Akshay Jindal, Krzysztof Wolski, Karol Myszkowski and Rafał K. Mantiuk. 2021. P
 
 The paper and videos can be found on the project web page: https://www.cl.cam.ac.uk/research/rainbow/projects/alsarr/
 
-Repository structure (see individual file for usage and dependencies):
+Repository structure (see individual file for usage and dependencies): <br />
 
-CaMoJAB:
-    - camojab.m             -> content-aware motion quality metric
-    - camojab_fits.mat      -> prefitted metric parameters
-    - model_Dst.m           -> core logic of camojab metric
-    - sample_texture.png
-    - example.m             -> example usage of camojab metric
-    - fits/train_camojab.m
-    - fits/test_camojab.m
-    - fits/ablation_camojab.m
-    - paper_plots/plot_luminance_vs_persistence.m
-    - paper_plots/plot_fps_vs_vel_vs_ppd.m
-    - paper_plots/plot_fps_vs_ppd_vs_vel.m
+CaMoJAB/ <br />
+<table><thead><tr><th>File</th><th>Description</th></tr></thead><tbody><tr><td>camojab.m</td><td>content-aware motion quality metric</td></tr><tr><td>camojab_fits.mat</td><td>prefitted metric parameters</td></tr><tr><td>model_Dst.m</td><td>core logic of camojab metric</td></tr><tr><td>sample_texture.png</td><td>Sample image for example</td></tr><tr><td>example.m</td><td>example usage of camojab metric</td></tr><tr><td>fits/train_camojab.m</td><td>Paper Figure 7(a-b)</td></tr><tr><td>fits/test_camojab.m</td><td>Paper Figure 7(c)</td></tr><tr><td>fits/ablation_camojab.m</td><td>Supplementary Table 1</td></tr><tr><td>paper_plots/plot_luminance_vs_persistence.m</td><td>Paper Figure 9</td></tr><tr><td>paper_plots/plot_ppd_vs_fps_vs_vel.m</td><td>Paper Figure 8(b)</td></tr><tr><td>paper_plots/plot_ppd_vs_vel_vs_fps.m</td><td>Paper Figure 8(a)</td></tr></tbody></table>
 
-ALSaRR:
-    - adaptive_fps.m      -> (example) calculate optimal fps vs vel LUT
-    - adaptive_vrs.m      -> (example) calculate optimal VRS map
-    - vrs_dp.m            -> optimal solution to VRS knapsack problem
-    - vrs_greedy.m        -> near optimal solution to VRS knapsack problem
-    - polyfit_quality.m   -> (example) how to fit polynomial to camojab
-    - sample_data/        -> sample data for above scripts
+ <br />
+ALSaRR/ <br />
+<table><thead><tr><th>File</th><th>Description</th></tr></thead><tbody><tr><td>adaptive_fps.m</td><td>(example) calculate optimal fps vs vel LUT</td></tr><tr><td>adaptive_vrs.m</td><td>(example) calculate optimal VRS map</td></tr><tr><td>vrs_dp.m</td><td>optimal solution to VRS knapsack problem</td></tr><tr><td>vrs_greedy.m</td><td>near optimal solution to VRS knapsack problem</td></tr><tr><td>polyfit_quality.m</td><td>(example) how to fit polynomial to camojab</td></tr><tr><td>sample_data/</td><td>sample data for above scripts</td></tr></tbody></table>
 
-Experiment1_data:
-    - vrs_exp_data.csv          -> Pairwise comparision data from Experiment 1
-    - scale_pwc2jnd.m           -> Script to scale data to JND units
-    - vrs_exp_data_jnd.mat      -> PWC data scaled to JND
-    - vrs_exp_stimulus.mat      -> Textures used in the experiment
-    - external_data/marrr_exp1_scaled.mat -> Data from [Denes et al. 2020] Experiment 1
-    - external_data/marrr_exp3_scaled.mat -> Data from [Denes et al. 2020] Experiment 3
-    - external_data/ITU.mat     -> Data from [BT Series. 2020] Fig. 7 and Fig. 20
-    - external_data/mackins.mat -> Data from [Mackin et al. 2016] Fig. 2
-
-Utils: collection of  helper functions 
+ <br />
+Experiment_data/
+ <br />
+<table><thead><tr><th>File</th><th>Description</th></tr></thead><tbody><tr><td>vrs_exp_data.csv</td><td>Pairwise comparision data from Experiment 1</td></tr><tr><td>scale_pwc2jnd.m</td><td>Script to scale data to JND units</td></tr><tr><td>vrs_exp_data_jnd.mat</td><td>PWC data scaled to JND</td></tr><tr><td>vrs_exp_stimulus.mat</td><td>Textures used in the experiment</td></tr><tr><td>external_data/marrr_exp1_scaled.mat</td><td>Data from [Denes et al. 2020] Experiment 1</td></tr><tr><td>external_data/marrr_exp3_scaled.mat</td><td>Data from [Denes et al. 2020] Experiment 3</td></tr><tr><td>external_data/ITU.mat</td><td>Data from [BT Series. 2020] Fig. 7 and Fig. 20</td></tr><tr><td>external_data/mackins.mat</td><td>Data from [Mackin et al. 2016] Fig. 2</td></tr></tbody></table>
+ 
+ <br />
+Utils/: collection of  helper functions  <br />
 
