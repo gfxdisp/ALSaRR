@@ -17,7 +17,7 @@ ppd = 45;
 bandwidths_percent = [0.0625 .25];% Bandwidths of interest
 bandwidths = bandwidths_percent * max_resolution(1) * max_resolution(2) * max_rr;
 mean_lum = 100;
-texture_path = './sample_data/sample_snapshot.png';
+texture_path = './sample_data/scene_snapshot.png';
 texture = rgb2gray(imread2double(texture_path).^(1));
 % Adjust sampling rate of LUT
 rr = max_rr:-5:min_rr;
