@@ -14,6 +14,11 @@ if ~exist('exrread','file')
     addpath('../utils/MatlabEXR/')
 end
 
+if ~exist('clamp','file')
+    addpath('../utils/')
+end
+
+
 color_image = exrread('sample_data/frame_n.exr');
 motion_image = exrread('sample_data/motion_n.exr');
 material_image = exrread('sample_data/materials_n.exr');
