@@ -26,7 +26,7 @@ delta_Q_half_res = zeros([length(refresh_rates) length(velocities) length(log_lu
 delta_Q_full_res = zeros([length(refresh_rates) length(velocities) length(log_luminance)]);
 
 % setup display configuration
-disp_params.ppd = ppd;
+disp_params.ppd = 60;
 disp_params.persistence = 1;
 disp_params.mipmap_level = 0; 
 
